@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    font-family: Montserrat;
+    color: white;
+}
+
+html, body{
+    background-color: rgb(25, 25, 25);
+    overflow-x: hidden;
+    height: 100%;
+}
+
+.header {
+    width: 100%;
+    height: 100px;
+    display: grid;
+    grid-template-columns: 100px auto 600px;
+    background-color: rgb(50, 50, 50);
+    border-radius: 25px;
+}
+
+.header .buttons {
+    display: grid;
+    grid-template-columns: 300px 300px;
+}
+
+a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    transition-duration: .1s;
+}
+
+h2{
+    font-size: 60px;
+}
+
+a:hover {
+    color: lightblue;
+    text-decoration: underline;
+    background-color: rgb(35, 35, 35);
+}
+
+.showreel {
+    width: 100%;
+    height: 500px;
+    display: grid;
+    grid-template-columns: 100% 100%;
+    background-color: rgb(50, 50, 50);
+    border-radius: 25px;
+    gap: 10px;
+    position: relative;
+    left: 0px;
+    transition-duration: 1s;
+}
+
+.showreel div {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    display: inline;
+}
+
+.showreel div h2 {
+    position: relative;
+    top: -100%;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div.image {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.5;
+}
+
+img{
+    width: 100%;
+}
