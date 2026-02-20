@@ -18,6 +18,7 @@ html, body{
     grid-template-columns: 100px auto 600px;
     background-color: rgb(50, 50, 50);
     border-radius: 25px;
+    overflow: hidden;
 }
 
 .header .buttons {
