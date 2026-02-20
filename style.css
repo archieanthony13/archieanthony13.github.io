@@ -129,11 +129,13 @@ table * {
     position: absolute;
     top: 110px;
     right: -200px;
-    background-color: rgb(25, 25, 25);
+    background-color: rgb(50, 50, 50);
     opacity: .9;
     transition-duration: .5s;
     display: none;
     grid-template-rows: 50px 50px;
+    border-radius: 10px 0px 0px 0px;
+    overflow: hidden;
 }
 
 @media screen and (max-width: 1000px){
