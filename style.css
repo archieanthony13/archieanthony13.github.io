@@ -174,3 +174,7 @@ table * {
         grid-template-columns: 100px auto 100px;
     }
 }
+
+table a {
+    border-bottom: none;
+}
