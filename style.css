@@ -3,12 +3,17 @@
 * {
     font-family: Montserrat;
     color: white;
+    text-align: center;
 }
 
 html, body{
     background-color: rgb(25, 25, 25);
     overflow-x: hidden;
     height: 100%;
+}
+
+div {
+    margin-bottom: 10px;
 }
 
 .header {
@@ -24,6 +29,21 @@ html, body{
 .header .buttons {
     display: grid;
     grid-template-columns: 300px 300px;
+}
+
+.footer .logos {
+    /* width: 100%; */
+    margin: 0px auto;
+    display: grid;
+    grid-template-columns: 50px 50px;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer .logos a:hover {
+    opacity: 0.5;
+    background-color: rgb(25, 25, 25);
 }
 
 a {
@@ -85,4 +105,16 @@ div.image {
 
 img{
     width: 100%;
+}
+
+table {
+    margin: 0px auto;
+    font-size: 20px;
+    width: 75vw;
+}
+
+table * {
+    text-align: left;
+    padding: 10px;
+    border-bottom: 2px dotted black;
 }
