@@ -119,9 +119,52 @@ table * {
     border-bottom: 2px dotted black;
 }
 
+.menu-button {
+    display: none;
+}
+
+.menu {
+    width: 200px;
+    height: calc(100% - 110px);
+    position: absolute;
+    top: 110px;
+    right: -200px;
+    background-color: rgb(25, 25, 25);
+    opacity: .9;
+    transition-duration: .5s;
+    display: none;
+    grid-template-rows: 50px 50px;
+}
+
 @media screen and (max-width: 1000px){
     div.image img {
         width: unset;
         height: 125%;
+    }
+
+    h2 {
+        font-size: 30px;
+    }
+
+    table {
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 750px){
+    .menu-button {
+        display: block;
+    }
+
+    .menu {
+        display: grid;
+    }
+
+    .header .buttons {
+        display: none;
+    }
+
+    .header {
+        grid-template-columns: 100px auto 100px;
     }
 }
