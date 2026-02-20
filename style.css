@@ -9,7 +9,7 @@
 html, body{
     background-color: rgb(25, 25, 25);
     overflow-x: hidden;
-    height: 100%;
+    height: calc(100% - 10px);
 }
 
 div {
