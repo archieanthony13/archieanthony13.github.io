@@ -123,6 +123,10 @@ table * {
     display: none;
 }
 
+.menu-button:hover {
+    cursor: pointer;
+}
+
 .menu {
     width: 200px;
     height: calc(100% - 110px);
