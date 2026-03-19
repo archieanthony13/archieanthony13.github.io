@@ -58,6 +58,7 @@ a {
     align-items: center;
     text-decoration: none;
     transition-duration: .1s;
+    font-weight: bold;
 }
 
 h2{
