@@ -180,13 +180,13 @@ table * {
     display: inline;
 }
 
-.portfolio-highlight a {
+.portfolio-highlight .text {
     font-size: 20px;
     position: relative;
     top: -100%;
     width: 100%;
     height: 100%;
-    display: flex;
+    display: grid;
     justify-content: center;
     align-items: center;
 }
@@ -200,7 +200,7 @@ table * {
         font-size: 10px;
     }
 
-    p, .portfolio-highlight a {
+    p, .portfolio-highlight a, .portfolio-highlight p {
         font-size: 10px;
     }
 }
