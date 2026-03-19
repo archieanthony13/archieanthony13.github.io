@@ -20,8 +20,6 @@ p {
     height: 100px;
     display: grid;
     grid-template-columns: auto 600px;
-    /* background-color: rgb(50, 50, 50); */
-    border-radius: 25px;
     overflow: hidden;
 }
 
