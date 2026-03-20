@@ -82,7 +82,7 @@ a {
 }
 
 h2{
-    font-size: 60px;
+    font-size: 50px;
 }
 
 a:hover {
@@ -237,6 +237,10 @@ table * {
         font-size: 30px;
     }
 
+    h1 {
+        font-size: 50px !important;
+    }
+
     table {
         font-size: 10px;
     }
@@ -296,4 +300,14 @@ table * {
 
 table a {
     border-bottom: none;
+}
+
+h1 {
+    position: absolute;
+    top: 200px;
+    left: 0px;
+    width: 100%;
+    font-size: 75px;
+    font-weight: bold;
+    z-index: 2;
 }
