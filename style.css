@@ -232,6 +232,10 @@ table * {
     height: 100%;
 }
 
+.body#index table a {
+    display: block;
+}
+
 @media screen and (max-width: 1000px){
     h2 {
         font-size: 30px;
