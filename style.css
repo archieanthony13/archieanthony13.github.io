@@ -12,6 +12,15 @@ html, body{
     overflow-x: hidden;
 }
 
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    height: 100%;
+}
+
 p {
     font-size: 20px;
 }
@@ -26,6 +35,7 @@ p {
 
 .header#index {
     position: absolute;
+    left: -5px;
     z-index: 1;
 }
 
@@ -156,9 +166,9 @@ table * {
 
 .menu {
     width: 200px;
-    height: calc(100% - 110px);
+    height: calc(100% - 70px);
     position: absolute;
-    top: 110px;
+    top: 70px;
     right: -200px;
     background-color: rgb(50, 50, 50);
     opacity: .9;
@@ -275,6 +285,12 @@ table * {
 
     .gallery {
         width: 100%;
+    }
+}
+
+@media screen and (max-width: 750px){
+    table {
+        font-size: 7px;
     }
 }
 
