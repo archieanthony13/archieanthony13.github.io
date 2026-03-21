@@ -184,7 +184,7 @@ table * {
     width: 75vw;
     display: grid;
     grid-template-columns: calc(33% - 5px) calc(33% - 5px) calc(33% - 5px);
-    grid-template-rows: 25vw 25vw 25vw 25vw 25vw 25vw;
+    grid-template-rows: 25vw 25vw 25vw 25vw;
     gap: 10px;
     position: relative;
     left: 0px;
@@ -256,6 +256,7 @@ table * {
 
     #portfolio {
         grid-template-columns: calc(50% - 5px) calc(50% - 5px);
+        grid-template-rows: 25vw 25vw 25vw 25vw 25vw 25vw;
     }
 }
 
