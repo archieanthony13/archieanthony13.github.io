@@ -1,6 +1,8 @@
 const showreel = document.querySelector(".showreel")
 const length = showreel.querySelectorAll("div.showreel").length
 
+showreel.style.gridTemplateColumns = "repeat(" + length + ",100%)"
+
 let image = 0
 
 let showreelTimer = 5000
