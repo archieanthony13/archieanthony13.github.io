@@ -155,6 +155,26 @@ table * {
     border-bottom: 2px dotted black;
 }
 
+.section a {
+    display: block;
+}
+
+th.table-year {
+    width: 2vw;
+}
+
+th.table-event {
+    width: 40vw;
+}
+
+th.table-role {
+    width: 15vw;
+}
+
+th.table-venue {
+    width: 15vw;
+}
+
 .menu-button {
     display: none;
 }
