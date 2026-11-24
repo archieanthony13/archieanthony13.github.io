@@ -232,6 +232,13 @@
             "image":"77.jpg",
             "location":"Europe",
             "url":"pendragon-2026"
+        },
+        "11140":{
+            "title":"Arena UK",
+            "role":"Lighting Technician + Tour Crew",
+            "image":"4.jpg",
+            "location":"UK",
+            "url":"arena-uk-2026"
         }
     }
 }
